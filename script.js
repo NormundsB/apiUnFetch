@@ -5,8 +5,8 @@ async function iegutDarglietasNoApi() {
     return datiJson
 }
 
-async function iegutApgerbuNoApi() {
-    let datiNoApi = await fetch('https://fakestoreapi.com/products/category/men%20clothing');
+async function iegutDarbaLaiksNoApi() {
+    let datiNoApi = await fetch('https://normundsb.github.io/apiUnFetch/darbalaiks.json');
     let datiJson = await datiNoApi.json();
     // console.log(datiJson);
     return datiJson
