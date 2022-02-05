@@ -21,6 +21,6 @@ async function iegutDarbaLaiksNoApi() {
 async function raditDatus() {
     let darglietasJson = await iegutDarglietasNoApi();
     let electronicsJson = await iegutElectronicsNoApi();
-    let produktiKopa = darglietasJson.concat(electronicsJson)
-    console.log(produktiKopa)
+    let produktiKopa = darglietasJson.concat(electronicsJson);
+    console.log(produktiKopa);
 }
