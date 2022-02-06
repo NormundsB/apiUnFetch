@@ -18,7 +18,7 @@ async function iegutElectronicsNoApi() {
 async function iegutDarbaLaiksNoApi() {
     let datiNoApi = await fetch('https://normundsb.github.io/apiUnFetch/darbalaiks.json');
     let datiJson = await datiNoApi.json();
-    // console.log(datiJson);
+    console.log(datiJson);
     return datiJson
 }
 async function raditDatus() {
@@ -47,7 +47,7 @@ async function raditDatus2() {
         rindas2.innerHTML += `
         <tr>
         <td>${i + 1}</td>
-        <td>${vietasLv[i]["pilseta"]}</td>
+        <td>${vietasLv[i]["vietas"]}</td>
         <td>${vietasLv[i]["darbalaiks"]}</td>
         </tr>
         `;
