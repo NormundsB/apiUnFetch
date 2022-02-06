@@ -49,7 +49,7 @@ async function raditDatus2() {
         rindas2.innerHTML += `
         <tr>
         <td>${i + 1}</td>
-        <td>${vietasLv[i]["vietas"]}</td>
+        <td>${vietasLv[i]["pilseta"]}</td>
         <td>${vietasLv[i]["darbalaiks"]}</td>
         </tr>
         `;
