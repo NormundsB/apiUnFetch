@@ -1,3 +1,4 @@
+let rindas = document.querySelector(".rindas");
 async function iegutDarglietasNoApi() {
     let datiNoApi = await fetch('https://fakestoreapi.com/products/category/jewelery');
     let datiJson = await datiNoApi.json();
