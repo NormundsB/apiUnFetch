@@ -24,8 +24,16 @@ async function raditDatus() {
     let produktiKopa = darglietasJson.concat(electronicsJson);
     //console.log(produktiKopa);
 
+    rindas.innerHTML = "";
     for (let i = 0; i < produktiKopa.length; i++) {
-        console.log(produktiKopa[i]["title"])
+        //console.log(produktiKopa[i]["title"])
+        rindas.innerHTML += `
+        <tr>
+        <td>${i + 1}</td>
+        <td>${produktiKopa[i]["title"]}</td>
+        <td>${produktiKopa[i]["price"]}</td>
+        </tr>
+        `;
     }
 }
 
