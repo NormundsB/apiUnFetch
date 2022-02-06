@@ -22,5 +22,11 @@ async function raditDatus() {
     let darglietasJson = await iegutDarglietasNoApi();
     let electronicsJson = await iegutElectronicsNoApi();
     let produktiKopa = darglietasJson.concat(electronicsJson);
-    console.log(produktiKopa);
+    //console.log(produktiKopa);
+
+    for (let i = 0; i < produktiKopa.length; i++) {
+        console.log(produktiKopa[i]["title"])
+    }
 }
+
+raditDatus();
