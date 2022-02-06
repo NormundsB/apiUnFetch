@@ -18,7 +18,7 @@ async function iegutElectronicsNoApi() {
 async function iegutDarbaLaiksNoApi() {
     let datiNoApi = await fetch('https://normundsb.github.io/apiUnFetch/darbalaiks.json');
     let datiJson = await datiNoApi.json();
-    console.log(datiJson);
+    // console.log(datiJson);
     return datiJson
 }
 async function raditDatus() {
@@ -41,9 +41,11 @@ async function raditDatus() {
 }
 async function raditDatus2() {
     let vietasLv = await iegutDarbaLaiksNoApi();
-    rindas2.innerHTML = "";
+    console.log(vietasLv);
+    //rindas2.innerHTML = "";
     for (let i = 0; i < vietasLv.length; i++) {
         //console.log(produktiKopa[i]["title"])
+        console.log(vietasLv[1]);
         rindas2.innerHTML += `
         <tr>
         <td>${i + 1}</td>
@@ -56,3 +58,5 @@ async function raditDatus2() {
 
 raditDatus();
 raditDatus2();
+
+
