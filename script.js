@@ -15,12 +15,7 @@ async function iegutElectronicsNoApi() {
     return datiJson
 }
 
-async function iegutDarbaLaiksNoApi() {
-    let datiNoApi = await fetch('https://normundsb.github.io/apiUnFetch/darbalaiks.json');
-    let datiJson = await datiNoApi.json();
-    // console.log(datiJson);
-    return datiJson
-}
+
 async function raditDatus() {
     let darglietasJson = await iegutDarglietasNoApi();
     let electronicsJson = await iegutElectronicsNoApi();
@@ -38,6 +33,13 @@ async function raditDatus() {
         </tr>
         `;
     }
+}
+
+async function iegutDarbaLaiksNoApi() {
+    let datiNoApi = await fetch('https://normundsb.github.io/apiUnFetch/darbalaiks.json');
+    let datiJson = await datiNoApi.json();
+    // console.log(datiJson);
+    return datiJson
 }
 async function raditDatus2() {
     let vietasLv = await iegutDarbaLaiksNoApi();
