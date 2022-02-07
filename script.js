@@ -43,7 +43,7 @@ async function iegutDarbaLaiksNoApi() {
 }
 async function raditDatus2() {
     let vietasLv = await iegutDarbaLaiksNoApi();
-    console.log(vietasLv[0]);
+    console.log(vietasLv);
     //rindas2.innerHTML = "";
     for (let i = 0; i < vietasLv.length; i++) {
         //console.log(produktiKopa[i]["title"])
