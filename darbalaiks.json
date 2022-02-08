@@ -1,24 +1,26 @@
-{
-    "vietas": [
-        {
-            "pilseta": "Rīga",
-            "darbalaiks": "8.00 - 19.00"
-        },
-        {
-            "pilseta": "Rēzekne",
-            "darbalaiks": "8.00 - 19.00"
-        },
-        {
-            "pilseta": "Rūjiena",
-            "darbalaiks": "8.00 - 18.00"
-        },
-        {
-            "pilseta": "Ventspils",
-            "darbalaiks": "8.00 - 19.00"
-        },
-        {
-            "pilseta": "Liepāja",
-            "darbalaiks": "8.00 - 19.00"
-        }
-    ]
-}
+[
+    {
+        "vietas": [
+            {
+                "pilseta": "Rīga",
+                "darbalaiks": "8.00 - 19.00"
+            },
+            {
+                "pilseta": "Rēzekne",
+                "darbalaiks": "8.00 - 19.00"
+            },
+            {
+                "pilseta": "Rūjiena",
+                "darbalaiks": "8.00 - 18.00"
+            },
+            {
+                "pilseta": "Ventspils",
+                "darbalaiks": "8.00 - 19.00"
+            },
+            {
+                "pilseta": "Liepāja",
+                "darbalaiks": "8.00 - 19.00"
+            }
+        ]
+    }
+]
