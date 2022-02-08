@@ -45,9 +45,9 @@ async function raditDatus2() {
     let vietasLv = await iegutDarbaLaiksNoApi();
     console.log(vietasLv);
     //rindas2.innerHTML = "";
-    let vietasLvJSON = JSON.parse(vietasLv)
-    console.log(vietasLvJSON);
-    for (let i = 0; i < vietasLv.length; i++) {
+    // let vietasLvJSON = JSON.parse(vietasLv)
+    // console.log(vietasLvJSON);
+    for (let i = 0; i < vietasLv['vietas'].length; i++) {
         //console.log(produktiKopa[i]["title"])
         console.log(vietasLv[1]);
         rindas2.innerHTML += `
